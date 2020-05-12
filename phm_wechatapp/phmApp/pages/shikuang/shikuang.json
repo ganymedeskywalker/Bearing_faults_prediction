@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "实况信息页面",
+  "usingComponents": {
+    "ec-canvas": "../../ec-canvas/ec-canvas"
+   }
+}

@@ -1,5 +1,0 @@
-.box {
-  margin: 20rpx;
-  padding: 60rpx;
-  border: 1px solid silver;
-}

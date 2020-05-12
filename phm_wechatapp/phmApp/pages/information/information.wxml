@@ -1,0 +1,6 @@
+<!--pages/information/information.wxml-->
+<!--<text>machine01</text>-->
+<view wx:for="{{informationdata}}">
+	<view>第{{index+1}}次查询,机器：{{item.machine}}</view>
+	<!--只显示了label=0的是数据的machine-->
+</view>

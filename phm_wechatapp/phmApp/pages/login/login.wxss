@@ -1,0 +1,11 @@
+/* phmApp/pages/login/login.wxss */
+.placeholder{
+  font-size: 15px;
+} 
+input{
+  background: #fff;
+  height: 120rpx;
+  margin: 10px;
+  padding-left: 8px;
+  border: solid 1px silver
+} 

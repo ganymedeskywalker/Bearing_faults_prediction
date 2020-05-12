@@ -1,0 +1,8 @@
+<!--pages/month/month.wxml-->
+<!--pages/day/day.wxml-->
+<view class="box">
+<view>月报表</view>
+</view>
+<view wx:for="{{baobiaodata}}">
+<view>第{{index+1}}次查询,机器：{{item.machine}}</view><!--只显示了label=0的是数据的machine-->
+</view>

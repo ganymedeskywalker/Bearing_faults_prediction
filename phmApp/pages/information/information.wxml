@@ -1,3 +1,0 @@
-<!--pages/information/information.wxml-->
-<!--<text>machine01</text>-->
-<text>{{machineInfo[0]['label']}}</text>

@@ -1,0 +1,66 @@
+/* pages/baojing/baojing.wxss */
+.box {
+  margin: 10rpx;
+  padding: 40rpx;
+  border: 1px solid silver;
+}
+scroll-view {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.gkTitle {
+  width: 25%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.9)
+}
+
+.gkContentBox {
+  display: flex;
+  width: 100%;
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid black;
+}
+
+.gkContentBox:last-child {
+  border: none;
+}
+.gkContent {
+  width: 25%;
+  text-align: center;
+}
+.circle {
+  height: 120px;
+  width: 120px;
+  border-radius: 60%;
+  background: #237ab7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerCircle {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.circleContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 140px;
+  box-sizing: border-box;
+  padding: 10px;
+}

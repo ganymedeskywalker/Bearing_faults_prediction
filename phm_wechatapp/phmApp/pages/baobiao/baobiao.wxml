@@ -1,0 +1,18 @@
+<!--pages/baobiao/baobiao.wxml-->
+<view>运维人员：{{staff}} 过去十天所维护机组的健康状况</view>
+<scroll-view scroll-x scroll-y style="width: 100%; height: 100%;margin-top:2px">
+	<view>
+		<view class='gkContentBox'>
+			<view class="gkTitle">日期</view>
+			<view class="gkTitle">状况</view>
+			<view class="gkTitle">机组位置</view>
+			<view class="gkTitle">马力</view>
+		</view>
+		<view class='gkContentBox' wx:for='{{result}}' wx:for:item='item'>
+			<view class="gkContent" style="color:red">{{item.date}}</view>
+			<view class="gkContent" style="color:#237ab7">{{status[item.predict]}}</view>
+			<view class="gkContent" style="color:green">{{item.location}}</view>
+			<view class="gkContent" style="color:orange">{{item.HP}}</view>
+		</view>
+	</view>
+</scroll-view>

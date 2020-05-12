@@ -1,0 +1,49 @@
+{
+  "pages": [
+
+    "pages/login/login",
+    "pages/baobiao/baobiao",
+    "pages/baojing/baojing",
+    "pages/shikuang/shikuang",
+    "pages/day/day",
+    "pages/information/information",
+    "pages/month/month",
+    "pages/chaxun/chaxun"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "工业app",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#000",
+    "list": [
+      {
+        "pagePath": "pages/shikuang/shikuang",
+        "text": "实况",
+        "iconPath": "/images/home-off.png",
+        "selectedIconPath": "/images/home-on.png"
+      },
+      {
+        "pagePath": "pages/baojing/baojing",
+        "text": "报警",
+        "iconPath": "/images/jiaoxue-off.png",
+        "selectedIconPath": "/images/jiaoxue-on.png"
+      },
+      {
+        "pagePath": "pages/baobiao/baobiao",
+        "text": "报表",
+        "iconPath": "/images/keyan-off.png",
+        "selectedIconPath": "/images/keyan-on.png"
+      },
+      {
+        "pagePath": "pages/chaxun/chaxun",
+        "text": "查询",
+        "iconPath": "/images/zixun-off.png",
+        "selectedIconPath": "/images/zixun-on.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

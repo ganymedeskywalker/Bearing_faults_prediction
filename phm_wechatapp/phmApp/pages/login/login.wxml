@@ -1,0 +1,14 @@
+<!--phmApp/pages/login/login.wxml-->
+<text>test:姓名czx密码111111</text>
+<view class="container">
+  <view>
+   <input placeholder="姓名" placeholder-class="placeholder" bindinput='getInputName'type='string'></input>
+   <input placeholder="密码" placeholder-class="placeholder" bindinput='getInputPW'type='number'></input>
+    <button class="gotoBtn" bindtap="checkID"> 登陆 </button> 
+  </view>
+  <view>{{msg}}</view>
+</view>
+
+
+
+

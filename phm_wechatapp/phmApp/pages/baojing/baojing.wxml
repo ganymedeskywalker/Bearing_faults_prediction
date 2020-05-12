@@ -1,0 +1,35 @@
+<!--pages/baojing/baojing.wxml-->
+<view>今日报警信息 {{date}}</view>
+
+<scroll-view scroll-x scroll-y style="width: 100%; height: 240px;margin-top:2px">
+	<view>
+		<view class='gkContentBox'>
+			<view class="gkTitle">故障类型</view>
+			<view class="gkTitle">运维人员</view>
+			<view class="gkTitle">机组位置</view>
+			<view class="gkTitle">马力</view>
+		</view>
+		<view class='gkContentBox' wx:for='{{faults}}' wx:for:item='item' wx:if="{{item.faultn > 0}}">
+			<view class="gkContent" style="color:red">{{item.fault}}</view>
+			<view class="gkContent" style="color:#237ab7">{{item.principal}}</view>
+			<view class="gkContent" style="color:green">{{item.loc}}</view>
+			<view class="gkContent" style="color:orange">{{item.hp}}</view>
+		</view>
+	</view>
+</scroll-view>
+
+<view>报警信息统计</view>
+<view class='circleContainer'>
+	<view class="circle">
+		<view class="innerCircle">
+			<view style="font-size:30px;font-weight:bold">{{allnum - fnum}}</view>
+			<view>正常</view>
+		</view>
+	</view>
+	<view class="circle">
+		<view class="innerCircle">
+			<view style="font-size:30px;font-weight:bold">{{fnum}}</view>
+			<view>故障</view>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,17 @@
+<!--pages/chaxun/chaxun.wxml-->
+<view class='box'>
+  <view class='title'>查询具体信息</view>
+  <input placeholder="年" placeholder-class="placeholder" bindinput='getInput1'type='number'></input>
+  <input placeholder="月" placeholder-class="placeholder" bindinput='getInput2' type='number'></input>
+  <input placeholder="日" placeholder-class="placeholder" bindinput='getInput3' type='number'></input>
+  <button bindtap='mysubmit'>提交</button>
+  <view hidden='{{flag}}' class='content'>
+    <view class='content-item'>结果</view>
+    <view class='content-item'>
+      <view wx:for="{{chaxundata}}">
+        <view>第{{index+1}}次查询,机器：{{item.machine}}</view>
+        <!--只显示了label=0的是数据的machine-->
+      </view>
+    </view>
+  </view>
+</view>
