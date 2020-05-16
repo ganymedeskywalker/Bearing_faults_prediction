@@ -5,15 +5,16 @@
 ## 目录结构
 .
 |-- CWRU
-|   |    `-- code
-|   |    `-- cwru.model
-|   |    `-- othercode
-|        `-- result.csv
+|   |                               `-- code
+|   |                               `-- cwru.model
+|   |                               `-- othercode
+|                                   `-- result.csv
+|-- a.md
 |-- phm_wechatapp
-|   |    `-- cloudfunctions
-|   |    `-- package-lock.json
-|   |    `-- phmApp
-|        `-- project.config.json
+|   |                               `-- cloudfunctions
+|   |                               `-- package-lock.json
+|   |                               `-- phmApp
+|                                   `-- project.config.json
 `-- readme.md
 
 ## 版本管理（可选，便于之后的维护）
