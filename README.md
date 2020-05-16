@@ -3,7 +3,19 @@
 ## 项目概述
 简要描述项目的背景和内容。
 ## 目录结构
-用树形结构或列表描述GitHub工程中的文件目录结构。
+.
+|-- CWRU
+|   |    `-- code
+|   |    `-- cwru.model
+|   |    `-- othercode
+|        `-- result.csv
+|-- phm_wechatapp
+|   |    `-- cloudfunctions
+|   |    `-- package-lock.json
+|   |    `-- phmApp
+|        `-- project.config.json
+`-- readme.md
+
 ## 版本管理（可选，便于之后的维护）
 次序表述工程每次版本修改的内容，包括但不限于版本、时间和修改内容。
 ## 依赖配置
