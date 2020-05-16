@@ -4,18 +4,18 @@
 简要描述项目的背景和内容。
 ## 目录结构
 .
-|-- CWRU
-|   |                               `-- code
-|   |                               `-- cwru.model
-|   |                               `-- othercode
-|                                   `-- result.csv
-|-- a.md
-|-- phm_wechatapp
-|   |                               `-- cloudfunctions
-|   |                               `-- package-lock.json
-|   |                               `-- phmApp
-|                                   `-- project.config.json
-`-- readme.md
+<br>|-- CWRU
+<br>|   |                               `-- code
+<br>|   |                               `-- cwru.model
+<br>|   |                               `-- othercode
+<br>|                                   `-- result.csv
+<br>|-- a.md
+<br>|-- phm_wechatapp
+<br>|   |                               `-- cloudfunctions
+<br>|   |                               `-- package-lock.json
+<br>|   |                               `-- phmApp
+<br>|                                   `-- project.config.json
+<br>`-- readme.md
 
 ## 版本管理（可选，便于之后的维护）
 次序表述工程每次版本修改的内容，包括但不限于版本、时间和修改内容。
